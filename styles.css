@@ -1,0 +1,124 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+/*NECESSARY*/
+body {
+  max-width: 960px;
+  margin: auto;
+}
+
+nav {
+  /* background-color: wheat; */
+  height: 35px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 25px;
+}
+nav li {
+  display: inline;
+  margin-right: 0.5rem;
+  font-size: smaller;
+}
+article {
+  margin-top: 22px;
+  position: relative;
+}
+nav ul,
+h1,
+h2,
+form {
+  display: inline;
+  border: 1rem, solid, yellow;
+}
+#hands_pottery {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+.title {
+  display: block;
+  /* background-color: blanchedalmond; */
+  width: 57%;
+  margin-left: 40px;
+  font-size: 32px;
+  border-bottom: 2.5px solid black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: normal;
+}
+.first_par {
+  width: 53%;
+  margin-left: 77px;
+  margin-top: 25px;
+  margin-bottom: 28px;
+  display: block;
+  /* background-color: blanchedalmond; */
+  font-size: 14px;
+  align-self: center;
+}
+#plant1 {
+  width: 33%;
+  position: absolute;
+  top: 59px;
+  right: 26px;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+.second_par {
+  width: 27%;
+  align-self: center;
+  margin-left: 35%;
+  display: block;
+  /* background-color: blanchedalmond; */
+  font-size: 13.9px;
+  margin-bottom: 30px;
+}
+.third_par {
+  width: 27%;
+  align-self: center;
+  margin-left: 35%;
+  display: block;
+  /* background-color: blanchedalmond; */
+  font-size: 13.9px;
+}
+#plant2 {
+  width: 23%;
+  position: absolute;
+  top: 190px;
+  left: 33px;
+}
+.about_part {
+  margin-bottom: 100px;
+}
+.prod_list {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 1px solid black;
+}
+.product_table {
+  width: 750px;
+}
+
+.product_table h1 {
+  font-weight: normal;
+  margin-left: 1px;
+  font-size: 16px;
+  border-bottom: 2.5px solid black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+  text-align: left;
+}
